@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A7E04E5242D2A66002421F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E04E4242D2A66002421F1 /* UIKit.framework */; };
+		4A7E04E7242D2A66002421F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E04E6242D2A66002421F1 /* Foundation.framework */; };
+		4A7E04E9242D2A66002421F1 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E04E8242D2A66002421F1 /* CydiaSubstrate.framework */; };
+		4A7E04F2242D2A66002421F1 /* JodelPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E04F1242D2A66002421F1 /* JodelPP.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A7E04E1242D2A66002421F1 /* JodelPP.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = JodelPP.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7E04E4242D2A66002421F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A7E04E6242D2A66002421F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A7E04E8242D2A66002421F1 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		4A7E04ED242D2A66002421F1 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		4A7E04EF242D2A66002421F1 /* JodelPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JodelPP-Prefix.pch"; path = "../JodelPP-Prefix.pch"; sourceTree = "<group>"; };
+		4A7E04F0242D2A66002421F1 /* JodelPP.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = JodelPP.xm; sourceTree = "<group>"; };
+		4A7E04F1242D2A66002421F1 /* JodelPP.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JodelPP.mm; sourceTree = "<group>"; };
+		4A7E04F6242D2A66002421F1 /* JodelPP.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JodelPP.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7E04DD242D2A66002421F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7E04E5242D2A66002421F1 /* UIKit.framework in Frameworks */,
+				4A7E04E7242D2A66002421F1 /* Foundation.framework in Frameworks */,
+				4A7E04E9242D2A66002421F1 /* CydiaSubstrate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A7E04D6242D2A66002421F1 = {
+			isa = PBXGroup;
+			children = (
+				4A7E04EA242D2A66002421F1 /* JodelPP */,
+				4A7E04E3242D2A66002421F1 /* Frameworks */,
+				4A7E04E2242D2A66002421F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A7E04E2242D2A66002421F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04E1242D2A66002421F1 /* JodelPP.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7E04E3242D2A66002421F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04E4242D2A66002421F1 /* UIKit.framework */,
+				4A7E04E6242D2A66002421F1 /* Foundation.framework */,
+				4A7E04E8242D2A66002421F1 /* CydiaSubstrate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7E04EA242D2A66002421F1 /* JodelPP */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04F0242D2A66002421F1 /* JodelPP.xm */,
+				4A7E04F1242D2A66002421F1 /* JodelPP.mm */,
+				4A7E04EB242D2A66002421F1 /* Package */,
+				4A7E04EE242D2A66002421F1 /* Supporting Files */,
+			);
+			path = JodelPP;
+			sourceTree = "<group>";
+		};
+		4A7E04EB242D2A66002421F1 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04EC242D2A66002421F1 /* DEBIAN */,
+				4A7E04F3242D2A66002421F1 /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		4A7E04EC242D2A66002421F1 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04ED242D2A66002421F1 /* control */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		4A7E04EE242D2A66002421F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04EF242D2A66002421F1 /* JodelPP-Prefix.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A7E04F3242D2A66002421F1 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04F4242D2A66002421F1 /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		4A7E04F4242D2A66002421F1 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04F5242D2A66002421F1 /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		4A7E04F5242D2A66002421F1 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E04F6242D2A66002421F1 /* JodelPP.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A7E04DE242D2A66002421F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A7E04E0242D2A66002421F1 /* JodelPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7E04F9242D2A66002421F1 /* Build configuration list for PBXNativeTarget "JodelPP" */;
+			buildPhases = (
+				4A7E04DB242D2A66002421F1 /* ShellScript */,
+				4A7E04DC242D2A66002421F1 /* Sources */,
+				4A7E04DD242D2A66002421F1 /* Frameworks */,
+				4A7E04DE242D2A66002421F1 /* Headers */,
+				4A7E04DF242D2A66002421F1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JodelPP;
+			productName = JodelPP;
+			productReference = 4A7E04E1242D2A66002421F1 /* JodelPP.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7E04D7242D2A66002421F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				TargetAttributes = {
+					4A7E04E0242D2A66002421F1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 4A7E04DA242D2A66002421F1 /* Build configuration list for PBXProject "JodelPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A7E04D6242D2A66002421F1;
+			productRefGroup = 4A7E04E2242D2A66002421F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A7E04E0242D2A66002421F1 /* JodelPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A7E04DB242D2A66002421F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+		4A7E04DF242D2A66002421F1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7E04DC242D2A66002421F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7E04F2242D2A66002421F1 /* JodelPP.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A7E04F7242D2A66002421F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"JodelPP\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A7E04F8242D2A66002421F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(MonkeyDevPath)/frameworks/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DTHEOS_INSTANCE_NAME=\"\\\"JodelPP\\\"\"";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		4A7E04FA242D2A66002421F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF22C58N48;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JodelPP/JodelPP-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A7E04FB242D2A66002421F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF22C58N48;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JodelPP/JodelPP-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				MonkeyDevBuildPackageOnAnyBuild = NO;
+				MonkeyDevClearUiCacheOnInstall = NO;
+				MonkeyDevCopyOnBuild = NO;
+				MonkeyDevDeviceIP = "";
+				MonkeyDevDevicePassword = "";
+				MonkeyDevDevicePort = "";
+				MonkeyDevInstallOnAnyBuild = YES;
+				MonkeyDevInstallOnProfiling = YES;
+				MonkeyDevkillProcessOnInstall = SpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7E04DA242D2A66002421F1 /* Build configuration list for PBXProject "JodelPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7E04F7242D2A66002421F1 /* Release */,
+				4A7E04F8242D2A66002421F1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7E04F9242D2A66002421F1 /* Build configuration list for PBXNativeTarget "JodelPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7E04FA242D2A66002421F1 /* Release */,
+				4A7E04FB242D2A66002421F1 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7E04D7242D2A66002421F1 /* Project object */;
+}
