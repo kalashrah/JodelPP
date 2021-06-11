@@ -1,6 +1,6 @@
 Package: jb.kalashrah.JodelPP
 Name: JodelPP
-Version: 0.1-1
+Version: 0.2.0
 Description: 
 Section: System
 Depends: firmware (>= 5.0), mobilesubstrate
@@ -8,10 +8,10 @@ Conflicts:
 Replaces: 
 Priority: optional
 Architecture: iphoneos-arm
-Author: khalid Alashrah
-dev: 
+Author: kalashrah
+dev: k10
 Homepage: 
 Depiction: 
 Maintainer: 
-Icon: 
+Icon: http://kalashrah.000webhostapp.com/Jodel/JodelPP.png
 

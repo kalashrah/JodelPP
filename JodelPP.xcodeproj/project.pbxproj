@@ -7,22 +7,162 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0B3641246119A10038ECA1 /* FRPCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3621246119A10038ECA1 /* FRPCell.h */; };
+		4A0B3642246119A10038ECA1 /* FRPCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3622246119A10038ECA1 /* FRPCell.m */; };
+		4A0B3643246119A10038ECA1 /* FRPDeveloperCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3623246119A10038ECA1 /* FRPDeveloperCell.h */; };
+		4A0B3644246119A10038ECA1 /* FRPDeveloperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3624246119A10038ECA1 /* FRPDeveloperCell.m */; };
+		4A0B3645246119A10038ECA1 /* FRPLinkCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3625246119A10038ECA1 /* FRPLinkCell.h */; };
+		4A0B3646246119A10038ECA1 /* FRPLinkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3626246119A10038ECA1 /* FRPLinkCell.m */; };
+		4A0B3647246119A10038ECA1 /* FRPListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3627246119A10038ECA1 /* FRPListCell.h */; };
+		4A0B3648246119A10038ECA1 /* FRPListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3628246119A10038ECA1 /* FRPListCell.m */; };
+		4A0B3649246119A10038ECA1 /* FRPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3629246119A10038ECA1 /* FRPreferences.h */; };
+		4A0B364A246119A10038ECA1 /* FRPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B362A246119A10038ECA1 /* FRPreferences.m */; };
+		4A0B364B246119A10038ECA1 /* FRPrefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B362B246119A10038ECA1 /* FRPrefs.h */; };
+		4A0B364C246119A10038ECA1 /* FRPSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B362C246119A10038ECA1 /* FRPSection.h */; };
+		4A0B364D246119A10038ECA1 /* FRPSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B362D246119A10038ECA1 /* FRPSection.m */; };
+		4A0B364E246119A10038ECA1 /* FRPSegmentCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B362E246119A10038ECA1 /* FRPSegmentCell.h */; };
+		4A0B364F246119A10038ECA1 /* FRPSegmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B362F246119A10038ECA1 /* FRPSegmentCell.m */; };
+		4A0B3650246119A10038ECA1 /* FRPSelectListTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3630246119A10038ECA1 /* FRPSelectListTable.h */; };
+		4A0B3651246119A10038ECA1 /* FRPSelectListTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3631246119A10038ECA1 /* FRPSelectListTable.m */; };
+		4A0B3652246119A10038ECA1 /* FRPSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3632246119A10038ECA1 /* FRPSettings.h */; };
+		4A0B3653246119A10038ECA1 /* FRPSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3633246119A10038ECA1 /* FRPSettings.m */; };
+		4A0B3654246119A10038ECA1 /* FRPSliderCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3634246119A10038ECA1 /* FRPSliderCell.h */; };
+		4A0B3655246119A10038ECA1 /* FRPSliderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3635246119A10038ECA1 /* FRPSliderCell.m */; };
+		4A0B3656246119A10038ECA1 /* FRPSwitchCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3636246119A10038ECA1 /* FRPSwitchCell.h */; };
+		4A0B3657246119A10038ECA1 /* FRPSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3637246119A10038ECA1 /* FRPSwitchCell.m */; };
+		4A0B3658246119A10038ECA1 /* FRPTextFieldCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3638246119A10038ECA1 /* FRPTextFieldCell.h */; };
+		4A0B3659246119A10038ECA1 /* FRPTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B3639246119A10038ECA1 /* FRPTextFieldCell.m */; };
+		4A0B365A246119A10038ECA1 /* FRPValueCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B363A246119A10038ECA1 /* FRPValueCell.h */; };
+		4A0B365B246119A10038ECA1 /* FRPValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B363B246119A10038ECA1 /* FRPValueCell.m */; };
+		4A0B365C246119A10038ECA1 /* FRPViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B363C246119A10038ECA1 /* FRPViewCell.h */; };
+		4A0B365D246119A10038ECA1 /* FRPViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B363D246119A10038ECA1 /* FRPViewCell.m */; };
+		4A0B365E246119A10038ECA1 /* FRPViewSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B363E246119A10038ECA1 /* FRPViewSection.h */; };
+		4A0B365F246119A10038ECA1 /* FRPViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B363F246119A10038ECA1 /* FRPViewSection.m */; };
+		4A0B3660246119A10038ECA1 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B3640246119A10038ECA1 /* ViewController.h */; };
+		4A0B366324611AB30038ECA1 /* JodelPPVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B366124611AB30038ECA1 /* JodelPPVC.h */; };
+		4A0B366424611AB30038ECA1 /* JodelPPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B366224611AB30038ECA1 /* JodelPPVC.m */; };
+		4A0B36712461A35E0038ECA1 /* JPPPrefc.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0B366F2461A35E0038ECA1 /* JPPPrefc.h */; };
+		4A0B36722461A35E0038ECA1 /* JPPPrefc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0B36702461A35E0038ECA1 /* JPPPrefc.m */; };
+		4A7068F22491657C006F033E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7068F12491657C006F033E /* JavaScriptCore.framework */; };
 		4A7E04E5242D2A66002421F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E04E4242D2A66002421F1 /* UIKit.framework */; };
 		4A7E04E7242D2A66002421F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E04E6242D2A66002421F1 /* Foundation.framework */; };
 		4A7E04E9242D2A66002421F1 /* CydiaSubstrate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E04E8242D2A66002421F1 /* CydiaSubstrate.framework */; };
 		4A7E04F2242D2A66002421F1 /* JodelPP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E04F1242D2A66002421F1 /* JodelPP.mm */; };
+		4A7E04FD242D2A83002421F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E04FC242D2A83002421F1 /* CoreLocation.framework */; };
+		4A7E0523242D3099002421F1 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E0522242D3099002421F1 /* MapKit.framework */; };
+		4A7E0528242D3517002421F1 /* testvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0526242D3517002421F1 /* testvc.m */; };
+		4A7E052A242D3755002421F1 /* CLLocation+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0513242D2BCA002421F1 /* CLLocation+LOSPAdditions.m */; };
+		4A7E052B242D375C002421F1 /* CLPlacemark+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0515242D2BCA002421F1 /* CLPlacemark+LOSPAdditions.m */; };
+		4A7E052C242D375F002421F1 /* LOSPLocationDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0517242D2BCA002421F1 /* LOSPLocationDebugViewController.m */; };
+		4A7E052D242D3763002421F1 /* LOSPLocationSpoofer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E051A242D2BCA002421F1 /* LOSPLocationSpoofer.m */; };
+		4A7E052E242D3766002421F1 /* LOSPTrip+LOSPPresets.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E051C242D2BCA002421F1 /* LOSPTrip+LOSPPresets.m */; };
+		4A7E052F242D376A002421F1 /* LOSPTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E051E242D2BCA002421F1 /* LOSPTrip.m */; };
+		4A7E0530242D376D002421F1 /* MKCoordinateSpan+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0520242D2BCA002421F1 /* MKCoordinateSpan+LOSPAdditions.m */; };
+		4A7E0531242D378D002421F1 /* CLLocationCoordinate2D+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0502242D2BCA002421F1 /* CLLocationCoordinate2D+LOSPAdditions.m */; };
+		4A7E0532242D3792002421F1 /* LOSPLocationPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0504242D2BCA002421F1 /* LOSPLocationPickerViewController.m */; };
+		4A7E0533242D3796002421F1 /* LOSPPresetTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0506242D2BCA002421F1 /* LOSPPresetTableViewController.m */; };
+		4A7E0534242D3799002421F1 /* LOSPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0508242D2BCA002421F1 /* LOSPRootViewController.m */; };
+		4A7E0535242D379C002421F1 /* LOSPSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E050A242D2BCA002421F1 /* LOSPSwizzler.m */; };
+		4A7E0536242D379E002421F1 /* MKDirections+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E050C242D2BCA002421F1 /* MKDirections+LOSPAdditions.m */; };
+		4A7E0537242D37A1002421F1 /* MKMapView+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E050E242D2BCA002421F1 /* MKMapView+LOSPAdditions.m */; };
+		4A7E0538242D37A4002421F1 /* UIView+LOSPAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7E0510242D2BCA002421F1 /* UIView+LOSPAdditions.m */; };
+		4A7E05CA242D73FA002421F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7E05C9242D73FA002421F1 /* CoreGraphics.framework */; };
+		4A9D678F2569619E0070BC4E /* stdio.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9D678E2569619E0070BC4E /* stdio.h */; };
+		4AB8065D2448010900594AFA /* testImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AB8065B2448010900594AFA /* testImage.h */; };
+		4AB8065E2448010900594AFA /* testImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB8065C2448010900594AFA /* testImage.m */; };
+		4AE22F9824FAE22800B754E8 /* k10Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE22F9624FAE22800B754E8 /* k10Manager.h */; };
+		4AE22F9924FAE22900B754E8 /* k10Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE22F9724FAE22800B754E8 /* k10Manager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A0B3621246119A10038ECA1 /* FRPCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPCell.h; sourceTree = "<group>"; };
+		4A0B3622246119A10038ECA1 /* FRPCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPCell.m; sourceTree = "<group>"; };
+		4A0B3623246119A10038ECA1 /* FRPDeveloperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPDeveloperCell.h; sourceTree = "<group>"; };
+		4A0B3624246119A10038ECA1 /* FRPDeveloperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPDeveloperCell.m; sourceTree = "<group>"; };
+		4A0B3625246119A10038ECA1 /* FRPLinkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPLinkCell.h; sourceTree = "<group>"; };
+		4A0B3626246119A10038ECA1 /* FRPLinkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPLinkCell.m; sourceTree = "<group>"; };
+		4A0B3627246119A10038ECA1 /* FRPListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPListCell.h; sourceTree = "<group>"; };
+		4A0B3628246119A10038ECA1 /* FRPListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPListCell.m; sourceTree = "<group>"; };
+		4A0B3629246119A10038ECA1 /* FRPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPreferences.h; sourceTree = "<group>"; };
+		4A0B362A246119A10038ECA1 /* FRPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPreferences.m; sourceTree = "<group>"; };
+		4A0B362B246119A10038ECA1 /* FRPrefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPrefs.h; sourceTree = "<group>"; };
+		4A0B362C246119A10038ECA1 /* FRPSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSection.h; sourceTree = "<group>"; };
+		4A0B362D246119A10038ECA1 /* FRPSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSection.m; sourceTree = "<group>"; };
+		4A0B362E246119A10038ECA1 /* FRPSegmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSegmentCell.h; sourceTree = "<group>"; };
+		4A0B362F246119A10038ECA1 /* FRPSegmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSegmentCell.m; sourceTree = "<group>"; };
+		4A0B3630246119A10038ECA1 /* FRPSelectListTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSelectListTable.h; sourceTree = "<group>"; };
+		4A0B3631246119A10038ECA1 /* FRPSelectListTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSelectListTable.m; sourceTree = "<group>"; };
+		4A0B3632246119A10038ECA1 /* FRPSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSettings.h; sourceTree = "<group>"; };
+		4A0B3633246119A10038ECA1 /* FRPSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSettings.m; sourceTree = "<group>"; };
+		4A0B3634246119A10038ECA1 /* FRPSliderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSliderCell.h; sourceTree = "<group>"; };
+		4A0B3635246119A10038ECA1 /* FRPSliderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSliderCell.m; sourceTree = "<group>"; };
+		4A0B3636246119A10038ECA1 /* FRPSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPSwitchCell.h; sourceTree = "<group>"; };
+		4A0B3637246119A10038ECA1 /* FRPSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPSwitchCell.m; sourceTree = "<group>"; };
+		4A0B3638246119A10038ECA1 /* FRPTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPTextFieldCell.h; sourceTree = "<group>"; };
+		4A0B3639246119A10038ECA1 /* FRPTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPTextFieldCell.m; sourceTree = "<group>"; };
+		4A0B363A246119A10038ECA1 /* FRPValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPValueCell.h; sourceTree = "<group>"; };
+		4A0B363B246119A10038ECA1 /* FRPValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPValueCell.m; sourceTree = "<group>"; };
+		4A0B363C246119A10038ECA1 /* FRPViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPViewCell.h; sourceTree = "<group>"; };
+		4A0B363D246119A10038ECA1 /* FRPViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPViewCell.m; sourceTree = "<group>"; };
+		4A0B363E246119A10038ECA1 /* FRPViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPViewSection.h; sourceTree = "<group>"; };
+		4A0B363F246119A10038ECA1 /* FRPViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPViewSection.m; sourceTree = "<group>"; };
+		4A0B3640246119A10038ECA1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A0B366124611AB30038ECA1 /* JodelPPVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JodelPPVC.h; sourceTree = "<group>"; };
+		4A0B366224611AB30038ECA1 /* JodelPPVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JodelPPVC.m; sourceTree = "<group>"; };
+		4A0B366F2461A35E0038ECA1 /* JPPPrefc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPPPrefc.h; sourceTree = "<group>"; };
+		4A0B36702461A35E0038ECA1 /* JPPPrefc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JPPPrefc.m; sourceTree = "<group>"; };
+		4A7068F12491657C006F033E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		4A7E04E1242D2A66002421F1 /* JodelPP.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = JodelPP.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A7E04E4242D2A66002421F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4A7E04E6242D2A66002421F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4A7E04E8242D2A66002421F1 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = Library/Frameworks/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
+		4A7E04E8242D2A66002421F1 /* CydiaSubstrate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CydiaSubstrate.framework; path = ../../../../opt/theos/vendor/lib/CydiaSubstrate.framework; sourceTree = DEVELOPER_DIR; };
 		4A7E04ED242D2A66002421F1 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
 		4A7E04EF242D2A66002421F1 /* JodelPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "JodelPP-Prefix.pch"; path = "../JodelPP-Prefix.pch"; sourceTree = "<group>"; };
-		4A7E04F0242D2A66002421F1 /* JodelPP.xm */ = {isa = PBXFileReference; lastKnownFileType = text; path = JodelPP.xm; sourceTree = "<group>"; };
+		4A7E04F0242D2A66002421F1 /* JodelPP.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; path = JodelPP.xm; sourceTree = "<group>"; };
 		4A7E04F1242D2A66002421F1 /* JodelPP.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = JodelPP.mm; sourceTree = "<group>"; };
 		4A7E04F6242D2A66002421F1 /* JodelPP.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JodelPP.plist; sourceTree = "<group>"; };
+		4A7E04FC242D2A83002421F1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		4A7E0501242D2BCA002421F1 /* CLLocationCoordinate2D+LOSPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLLocationCoordinate2D+LOSPAdditions.h"; sourceTree = "<group>"; };
+		4A7E0502242D2BCA002421F1 /* CLLocationCoordinate2D+LOSPAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLLocationCoordinate2D+LOSPAdditions.m"; sourceTree = "<group>"; };
+		4A7E0503242D2BCA002421F1 /* LOSPLocationPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOSPLocationPickerViewController.h; sourceTree = "<group>"; };
+		4A7E0504242D2BCA002421F1 /* LOSPLocationPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOSPLocationPickerViewController.m; sourceTree = "<group>"; };
+		4A7E0505242D2BCA002421F1 /* LOSPPresetTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOSPPresetTableViewController.h; sourceTree = "<group>"; };
+		4A7E0506242D2BCA002421F1 /* LOSPPresetTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOSPPresetTableViewController.m; sourceTree = "<group>"; };
+		4A7E0507242D2BCA002421F1 /* LOSPRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOSPRootViewController.h; sourceTree = "<group>"; };
+		4A7E0508242D2BCA002421F1 /* LOSPRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOSPRootViewController.m; sourceTree = "<group>"; };
+		4A7E0509242D2BCA002421F1 /* LOSPSwizzler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOSPSwizzler.h; sourceTree = "<group>"; };
+		4A7E050A242D2BCA002421F1 /* LOSPSwizzler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOSPSwizzler.m; sourceTree = "<group>"; };
+		4A7E050B242D2BCA002421F1 /* MKDirections+LOSPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKDirections+LOSPAdditions.h"; sourceTree = "<group>"; };
+		4A7E050C242D2BCA002421F1 /* MKDirections+LOSPAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MKDirections+LOSPAdditions.m"; sourceTree = "<group>"; };
+		4A7E050D242D2BCA002421F1 /* MKMapView+LOSPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKMapView+LOSPAdditions.h"; sourceTree = "<group>"; };
+		4A7E050E242D2BCA002421F1 /* MKMapView+LOSPAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+LOSPAdditions.m"; sourceTree = "<group>"; };
+		4A7E050F242D2BCA002421F1 /* UIView+LOSPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+LOSPAdditions.h"; sourceTree = "<group>"; };
+		4A7E0510242D2BCA002421F1 /* UIView+LOSPAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+LOSPAdditions.m"; sourceTree = "<group>"; };
+		4A7E0512242D2BCA002421F1 /* CLLocation+LOSPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLLocation+LOSPAdditions.h"; sourceTree = "<group>"; };
+		4A7E0513242D2BCA002421F1 /* CLLocation+LOSPAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+LOSPAdditions.m"; sourceTree = "<group>"; };
+		4A7E0514242D2BCA002421F1 /* CLPlacemark+LOSPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CLPlacemark+LOSPAdditions.h"; sourceTree = "<group>"; };
+		4A7E0515242D2BCA002421F1 /* CLPlacemark+LOSPAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CLPlacemark+LOSPAdditions.m"; sourceTree = "<group>"; };
+		4A7E0516242D2BCA002421F1 /* LOSPLocationDebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOSPLocationDebugViewController.h; sourceTree = "<group>"; };
+		4A7E0517242D2BCA002421F1 /* LOSPLocationDebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOSPLocationDebugViewController.m; sourceTree = "<group>"; };
+		4A7E0518242D2BCA002421F1 /* LOSPLocationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOSPLocationProvider.h; sourceTree = "<group>"; };
+		4A7E0519242D2BCA002421F1 /* LOSPLocationSpoofer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOSPLocationSpoofer.h; sourceTree = "<group>"; };
+		4A7E051A242D2BCA002421F1 /* LOSPLocationSpoofer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOSPLocationSpoofer.m; sourceTree = "<group>"; };
+		4A7E051B242D2BCA002421F1 /* LOSPTrip+LOSPPresets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LOSPTrip+LOSPPresets.h"; sourceTree = "<group>"; };
+		4A7E051C242D2BCA002421F1 /* LOSPTrip+LOSPPresets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LOSPTrip+LOSPPresets.m"; sourceTree = "<group>"; };
+		4A7E051D242D2BCA002421F1 /* LOSPTrip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LOSPTrip.h; sourceTree = "<group>"; };
+		4A7E051E242D2BCA002421F1 /* LOSPTrip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOSPTrip.m; sourceTree = "<group>"; };
+		4A7E051F242D2BCA002421F1 /* MKCoordinateSpan+LOSPAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKCoordinateSpan+LOSPAdditions.h"; sourceTree = "<group>"; };
+		4A7E0520242D2BCA002421F1 /* MKCoordinateSpan+LOSPAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MKCoordinateSpan+LOSPAdditions.m"; sourceTree = "<group>"; };
+		4A7E0522242D3099002421F1 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A7E0525242D3517002421F1 /* testvc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testvc.h; sourceTree = "<group>"; };
+		4A7E0526242D3517002421F1 /* testvc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testvc.m; sourceTree = "<group>"; };
+		4A7E0529242D362D002421F1 /* imports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = imports.h; sourceTree = "<group>"; };
+		4A7E05C9242D73FA002421F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4A9D678E2569619E0070BC4E /* stdio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdio.h; sourceTree = "<group>"; };
+		4AB8065B2448010900594AFA /* testImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testImage.h; sourceTree = "<group>"; };
+		4AB8065C2448010900594AFA /* testImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testImage.m; sourceTree = "<group>"; };
+		4AE22F9624FAE22800B754E8 /* k10Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = k10Manager.h; sourceTree = "<group>"; };
+		4AE22F9724FAE22800B754E8 /* k10Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = k10Manager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,15 +170,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7E05CA242D73FA002421F1 /* CoreGraphics.framework in Frameworks */,
+				4A7E04FD242D2A83002421F1 /* CoreLocation.framework in Frameworks */,
 				4A7E04E5242D2A66002421F1 /* UIKit.framework in Frameworks */,
+				4A7E0523242D3099002421F1 /* MapKit.framework in Frameworks */,
 				4A7E04E7242D2A66002421F1 /* Foundation.framework in Frameworks */,
 				4A7E04E9242D2A66002421F1 /* CydiaSubstrate.framework in Frameworks */,
+				4A7068F22491657C006F033E /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A0B3620246119A10038ECA1 /* FRPreferences */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B3621246119A10038ECA1 /* FRPCell.h */,
+				4A0B3622246119A10038ECA1 /* FRPCell.m */,
+				4A0B3623246119A10038ECA1 /* FRPDeveloperCell.h */,
+				4A0B3624246119A10038ECA1 /* FRPDeveloperCell.m */,
+				4A0B3625246119A10038ECA1 /* FRPLinkCell.h */,
+				4A0B3626246119A10038ECA1 /* FRPLinkCell.m */,
+				4A0B3627246119A10038ECA1 /* FRPListCell.h */,
+				4A0B3628246119A10038ECA1 /* FRPListCell.m */,
+				4A0B3629246119A10038ECA1 /* FRPreferences.h */,
+				4A0B362A246119A10038ECA1 /* FRPreferences.m */,
+				4A0B362B246119A10038ECA1 /* FRPrefs.h */,
+				4A0B362C246119A10038ECA1 /* FRPSection.h */,
+				4A0B362D246119A10038ECA1 /* FRPSection.m */,
+				4A0B362E246119A10038ECA1 /* FRPSegmentCell.h */,
+				4A0B362F246119A10038ECA1 /* FRPSegmentCell.m */,
+				4A0B3630246119A10038ECA1 /* FRPSelectListTable.h */,
+				4A0B3631246119A10038ECA1 /* FRPSelectListTable.m */,
+				4A0B3632246119A10038ECA1 /* FRPSettings.h */,
+				4A0B3633246119A10038ECA1 /* FRPSettings.m */,
+				4A0B3634246119A10038ECA1 /* FRPSliderCell.h */,
+				4A0B3635246119A10038ECA1 /* FRPSliderCell.m */,
+				4A0B3636246119A10038ECA1 /* FRPSwitchCell.h */,
+				4A0B3637246119A10038ECA1 /* FRPSwitchCell.m */,
+				4A0B3638246119A10038ECA1 /* FRPTextFieldCell.h */,
+				4A0B3639246119A10038ECA1 /* FRPTextFieldCell.m */,
+				4A0B363A246119A10038ECA1 /* FRPValueCell.h */,
+				4A0B363B246119A10038ECA1 /* FRPValueCell.m */,
+				4A0B363C246119A10038ECA1 /* FRPViewCell.h */,
+				4A0B363D246119A10038ECA1 /* FRPViewCell.m */,
+				4A0B363E246119A10038ECA1 /* FRPViewSection.h */,
+				4A0B363F246119A10038ECA1 /* FRPViewSection.m */,
+				4A0B3640246119A10038ECA1 /* ViewController.h */,
+			);
+			name = FRPreferences;
+			path = ../../../../MyTweakXcode/Jodel10/Jodel10/FRPreferences;
+			sourceTree = "<group>";
+		};
 		4A7E04D6242D2A66002421F1 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +243,10 @@
 		4A7E04E3242D2A66002421F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A7068F12491657C006F033E /* JavaScriptCore.framework */,
+				4A7E05C9242D73FA002421F1 /* CoreGraphics.framework */,
+				4A7E0522242D3099002421F1 /* MapKit.framework */,
+				4A7E04FC242D2A83002421F1 /* CoreLocation.framework */,
 				4A7E04E4242D2A66002421F1 /* UIKit.framework */,
 				4A7E04E6242D2A66002421F1 /* Foundation.framework */,
 				4A7E04E8242D2A66002421F1 /* CydiaSubstrate.framework */,
@@ -69,8 +257,21 @@
 		4A7E04EA242D2A66002421F1 /* JodelPP */ = {
 			isa = PBXGroup;
 			children = (
+				4A7E04FE242D2BCA002421F1 /* Classes */,
 				4A7E04F0242D2A66002421F1 /* JodelPP.xm */,
+				4A0B366F2461A35E0038ECA1 /* JPPPrefc.h */,
+				4A0B36702461A35E0038ECA1 /* JPPPrefc.m */,
+				4A0B366124611AB30038ECA1 /* JodelPPVC.h */,
+				4A0B366224611AB30038ECA1 /* JodelPPVC.m */,
+				4AB8065B2448010900594AFA /* testImage.h */,
+				4AB8065C2448010900594AFA /* testImage.m */,
+				4A7E0529242D362D002421F1 /* imports.h */,
+				4AE22F9624FAE22800B754E8 /* k10Manager.h */,
+				4AE22F9724FAE22800B754E8 /* k10Manager.m */,
+				4A7E0525242D3517002421F1 /* testvc.h */,
+				4A7E0526242D3517002421F1 /* testvc.m */,
 				4A7E04F1242D2A66002421F1 /* JodelPP.mm */,
+				4A9D678E2569619E0070BC4E /* stdio.h */,
 				4A7E04EB242D2A66002421F1 /* Package */,
 				4A7E04EE242D2A66002421F1 /* Supporting Files */,
 			);
@@ -126,6 +327,61 @@
 			path = DynamicLibraries;
 			sourceTree = "<group>";
 		};
+		4A7E04FE242D2BCA002421F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A0B3620246119A10038ECA1 /* FRPreferences */,
+				4A7E0500242D2BCA002421F1 /* Private */,
+				4A7E0511242D2BCA002421F1 /* Public */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A7E0500242D2BCA002421F1 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E0501242D2BCA002421F1 /* CLLocationCoordinate2D+LOSPAdditions.h */,
+				4A7E0502242D2BCA002421F1 /* CLLocationCoordinate2D+LOSPAdditions.m */,
+				4A7E0503242D2BCA002421F1 /* LOSPLocationPickerViewController.h */,
+				4A7E0504242D2BCA002421F1 /* LOSPLocationPickerViewController.m */,
+				4A7E0505242D2BCA002421F1 /* LOSPPresetTableViewController.h */,
+				4A7E0506242D2BCA002421F1 /* LOSPPresetTableViewController.m */,
+				4A7E0507242D2BCA002421F1 /* LOSPRootViewController.h */,
+				4A7E0508242D2BCA002421F1 /* LOSPRootViewController.m */,
+				4A7E0509242D2BCA002421F1 /* LOSPSwizzler.h */,
+				4A7E050A242D2BCA002421F1 /* LOSPSwizzler.m */,
+				4A7E050B242D2BCA002421F1 /* MKDirections+LOSPAdditions.h */,
+				4A7E050C242D2BCA002421F1 /* MKDirections+LOSPAdditions.m */,
+				4A7E050D242D2BCA002421F1 /* MKMapView+LOSPAdditions.h */,
+				4A7E050E242D2BCA002421F1 /* MKMapView+LOSPAdditions.m */,
+				4A7E050F242D2BCA002421F1 /* UIView+LOSPAdditions.h */,
+				4A7E0510242D2BCA002421F1 /* UIView+LOSPAdditions.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		4A7E0511242D2BCA002421F1 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				4A7E0512242D2BCA002421F1 /* CLLocation+LOSPAdditions.h */,
+				4A7E0513242D2BCA002421F1 /* CLLocation+LOSPAdditions.m */,
+				4A7E0514242D2BCA002421F1 /* CLPlacemark+LOSPAdditions.h */,
+				4A7E0515242D2BCA002421F1 /* CLPlacemark+LOSPAdditions.m */,
+				4A7E0516242D2BCA002421F1 /* LOSPLocationDebugViewController.h */,
+				4A7E0517242D2BCA002421F1 /* LOSPLocationDebugViewController.m */,
+				4A7E0518242D2BCA002421F1 /* LOSPLocationProvider.h */,
+				4A7E0519242D2BCA002421F1 /* LOSPLocationSpoofer.h */,
+				4A7E051A242D2BCA002421F1 /* LOSPLocationSpoofer.m */,
+				4A7E051B242D2BCA002421F1 /* LOSPTrip+LOSPPresets.h */,
+				4A7E051C242D2BCA002421F1 /* LOSPTrip+LOSPPresets.m */,
+				4A7E051D242D2BCA002421F1 /* LOSPTrip.h */,
+				4A7E051E242D2BCA002421F1 /* LOSPTrip.m */,
+				4A7E051F242D2BCA002421F1 /* MKCoordinateSpan+LOSPAdditions.h */,
+				4A7E0520242D2BCA002421F1 /* MKCoordinateSpan+LOSPAdditions.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -133,6 +389,28 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0B3647246119A10038ECA1 /* FRPListCell.h in Headers */,
+				4A0B365A246119A10038ECA1 /* FRPValueCell.h in Headers */,
+				4A0B3658246119A10038ECA1 /* FRPTextFieldCell.h in Headers */,
+				4A0B364B246119A10038ECA1 /* FRPrefs.h in Headers */,
+				4A0B3649246119A10038ECA1 /* FRPreferences.h in Headers */,
+				4A0B3660246119A10038ECA1 /* ViewController.h in Headers */,
+				4AB8065D2448010900594AFA /* testImage.h in Headers */,
+				4A0B365E246119A10038ECA1 /* FRPViewSection.h in Headers */,
+				4AE22F9824FAE22800B754E8 /* k10Manager.h in Headers */,
+				4A0B365C246119A10038ECA1 /* FRPViewCell.h in Headers */,
+				4A0B364E246119A10038ECA1 /* FRPSegmentCell.h in Headers */,
+				4A0B36712461A35E0038ECA1 /* JPPPrefc.h in Headers */,
+				4A0B366324611AB30038ECA1 /* JodelPPVC.h in Headers */,
+				4A0B3645246119A10038ECA1 /* FRPLinkCell.h in Headers */,
+				4A0B3650246119A10038ECA1 /* FRPSelectListTable.h in Headers */,
+				4A0B3641246119A10038ECA1 /* FRPCell.h in Headers */,
+				4A0B3654246119A10038ECA1 /* FRPSliderCell.h in Headers */,
+				4A0B3652246119A10038ECA1 /* FRPSettings.h in Headers */,
+				4A9D678F2569619E0070BC4E /* stdio.h in Headers */,
+				4A0B3656246119A10038ECA1 /* FRPSwitchCell.h in Headers */,
+				4A0B3643246119A10038ECA1 /* FRPDeveloperCell.h in Headers */,
+				4A0B364C246119A10038ECA1 /* FRPSection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +442,7 @@
 		4A7E04D7242D2A66002421F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					4A7E04E0242D2A66002421F1 = {
 						CreatedOnToolsVersion = 11.3;
@@ -231,7 +509,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7E0530242D376D002421F1 /* MKCoordinateSpan+LOSPAdditions.m in Sources */,
+				4A7E0535242D379C002421F1 /* LOSPSwizzler.m in Sources */,
+				4A0B3657246119A10038ECA1 /* FRPSwitchCell.m in Sources */,
+				4A0B3648246119A10038ECA1 /* FRPListCell.m in Sources */,
+				4A7E052C242D375F002421F1 /* LOSPLocationDebugViewController.m in Sources */,
+				4A0B36722461A35E0038ECA1 /* JPPPrefc.m in Sources */,
+				4A0B364D246119A10038ECA1 /* FRPSection.m in Sources */,
+				4A0B365F246119A10038ECA1 /* FRPViewSection.m in Sources */,
+				4A0B3655246119A10038ECA1 /* FRPSliderCell.m in Sources */,
+				4AB8065E2448010900594AFA /* testImage.m in Sources */,
+				4A0B366424611AB30038ECA1 /* JodelPPVC.m in Sources */,
+				4A7E0533242D3796002421F1 /* LOSPPresetTableViewController.m in Sources */,
+				4A0B3651246119A10038ECA1 /* FRPSelectListTable.m in Sources */,
+				4A0B364F246119A10038ECA1 /* FRPSegmentCell.m in Sources */,
+				4A0B365D246119A10038ECA1 /* FRPViewCell.m in Sources */,
+				4A7E052D242D3763002421F1 /* LOSPLocationSpoofer.m in Sources */,
+				4A0B3646246119A10038ECA1 /* FRPLinkCell.m in Sources */,
+				4A7E0531242D378D002421F1 /* CLLocationCoordinate2D+LOSPAdditions.m in Sources */,
+				4AE22F9924FAE22900B754E8 /* k10Manager.m in Sources */,
+				4A0B3642246119A10038ECA1 /* FRPCell.m in Sources */,
+				4A7E0534242D3799002421F1 /* LOSPRootViewController.m in Sources */,
+				4A7E052F242D376A002421F1 /* LOSPTrip.m in Sources */,
+				4A7E0528242D3517002421F1 /* testvc.m in Sources */,
+				4A0B365B246119A10038ECA1 /* FRPValueCell.m in Sources */,
+				4A7E0532242D3792002421F1 /* LOSPLocationPickerViewController.m in Sources */,
+				4A7E052B242D375C002421F1 /* CLPlacemark+LOSPAdditions.m in Sources */,
+				4A7E052A242D3755002421F1 /* CLLocation+LOSPAdditions.m in Sources */,
+				4A7E0538242D37A4002421F1 /* UIView+LOSPAdditions.m in Sources */,
+				4A0B3659246119A10038ECA1 /* FRPTextFieldCell.m in Sources */,
+				4A0B3644246119A10038ECA1 /* FRPDeveloperCell.m in Sources */,
+				4A0B3653246119A10038ECA1 /* FRPSettings.m in Sources */,
 				4A7E04F2242D2A66002421F1 /* JodelPP.mm in Sources */,
+				4A7E0537242D37A1002421F1 /* MKMapView+LOSPAdditions.m in Sources */,
+				4A7E0536242D379E002421F1 /* MKDirections+LOSPAdditions.m in Sources */,
+				4A0B364A246119A10038ECA1 /* FRPreferences.m in Sources */,
+				4A7E052E242D3766002421F1 /* LOSPTrip+LOSPPresets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,18 +554,42 @@
 		4A7E04F7242D2A66002421F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(MonkeyDevPath)/frameworks/**",
 					"$(MonkeyDevTheosPath)/vendor/lib",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
 				MonkeyDevPath = /opt/MonkeyDev;
 				MonkeyDevTheosPath = /opt/theos;
@@ -266,7 +603,27 @@
 		4A7E04F8242D2A66002421F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(MonkeyDevPath)/frameworks/**",
@@ -274,17 +631,22 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LIBRARY_SEARCH_PATHS = "$(MonkeyDevTheosPath)/vendor/lib/**";
 				MonkeyDevPath = /opt/MonkeyDev;
 				MonkeyDevTheosPath = /opt/theos;
@@ -299,52 +661,68 @@
 		4A7E04FA242D2A66002421F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JF22C58N48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JodelPP/JodelPP-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = alpin;
+				MonkeyDevDevicePort = 2222;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
+				MonkeyDevkillProcessOnInstall = Jodel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Release;
 		};
 		4A7E04FB242D2A66002421F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JF22C58N48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JodelPP/JodelPP-Prefix.pch";
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MonkeyDevBuildPackageOnAnyBuild = NO;
 				MonkeyDevClearUiCacheOnInstall = NO;
 				MonkeyDevCopyOnBuild = NO;
-				MonkeyDevDeviceIP = "";
-				MonkeyDevDevicePassword = "";
-				MonkeyDevDevicePort = "";
+				MonkeyDevDeviceIP = 127.0.0.1;
+				MonkeyDevDevicePassword = alpin;
+				MonkeyDevDevicePort = 2222;
 				MonkeyDevInstallOnAnyBuild = YES;
 				MonkeyDevInstallOnProfiling = YES;
-				MonkeyDevkillProcessOnInstall = SpringBoard;
+				MonkeyDevkillProcessOnInstall = Jodel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 arm64e";
 			};
 			name = Debug;
 		};
